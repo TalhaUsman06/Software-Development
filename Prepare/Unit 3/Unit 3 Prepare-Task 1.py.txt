@@ -1,0 +1,11 @@
+"""
+Unit 3 Prepare-Task 1
+"""
+
+print("\n***Area of Rectangle Calculator*** \n")
+print("For area of Rectangle give length: ")
+l=float(input())
+print("For area of Rectangle give width: ")
+w=float(input())
+area_rectangle= float(l*w)
+print("Area of Rectangle: ",area_rectangle,"square meters")
