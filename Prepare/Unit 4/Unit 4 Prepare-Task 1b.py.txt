@@ -1,0 +1,27 @@
+"""
+Unit 4 Prepare-Task 1B
+Experimenting with different data types such as integers, floats, strings, and booleans, understanding how Python handles each. 
+"""
+
+print("\n***Understanding Python*** \n")
+
+avg_uk_height=float(1.76)
+#Getting String input from the user
+name= input("Enter Your Name: ")
+
+#Getting integer input from the user
+age= int(input("Enter Your Age: "))
+
+#Getting float input from the user
+height= float(input("Enter Your Height in meters: "))
+
+#Boolean 
+shorter= height<avg_uk_height
+
+
+print("\n\nYour Name is ", name, "and your age is",age,"year. You are ",height,"meter tall.")
+if shorter:
+    print("Unfortunately, You are shorter than average height in UK.")
+else:
+    print("You are taller than average height in UK.")
+print("\nEnd")

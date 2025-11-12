@@ -1,0 +1,33 @@
+"""
+Unit 4 Prepare-Task 1A
+Exploration of variables and data types in Python, students can begin with a task where they declare and use variables to perform basic arithmetic operations like addition, subtraction, multiplication, and division.  
+"""
+
+print("\n***Understanding Python*** \n")
+
+print("Note: First Number shold be greater than second Number.")
+x= int(input("Enter first number: "))
+y= int(input("Enter Second number: "))
+
+print("Choose the operation you want to perform:")
+print("\tPress 1 for Addition")
+print("\tPress 2 for Subtraction")
+print("\tPress 3 for Multiplication")
+print("\tPress 4 for Division")
+choice= int(input())
+if choice==1:
+    sum=x+y
+    print("Sum of Numbers: ",sum)
+elif  choice==2:
+    sub=x-y
+    print("Difference of Numbers: ",sub)
+elif  choice==3:
+    multiple=x*y
+    print("Multiple of Numbers: ",multiple)
+elif  choice==4:
+    div=x/y
+    print("Division of Numbers: ",div)
+else:
+    print("Invalid Entry.\nExiting Program")
+
+print("\nEnd")
