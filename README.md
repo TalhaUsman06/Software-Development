@@ -6,6 +6,7 @@ Unit 2 was all about Github and to store data in its repository and it was execu
 
 Unit 3 was about basic Python commands. I implemented those in my code and then uploaded on my repository on 12/11/25
 
+Unit 4 Different Data types and Variables in Python
 
 Unit 5 is about using builtin python libraries like random etc and their implementation. Uploaded on my repository on 12/11/25
 
