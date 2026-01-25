@@ -14,3 +14,5 @@ Unit 6 is about implementing functions and using them in the lists
 
 Unit 7 is about do while and using loops also with proper menu and breaks and validations like if else and used random library 
 it was executed on 03/12/2025
+
+Unit 8 implemented recursions where I printed Fibonacci Numbers and factorial using Recursion
